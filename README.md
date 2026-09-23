@@ -59,7 +59,3 @@ python validate.py
 ```
 
 This checks algebraic agreement with an independent translation of the original positive-density RHS, field and contact edge cases, particle conservation, grid and voltage quadrature, a 25-point DC sweep, target-current search, exciton residuals, solver tolerance sensitivity, transient equivalence, and Python timing comparisons. It writes `validation/validation_report.json`, numerical fixtures, and sweep states. The timing comparison is between Python solver configurations; it is not a measured comparison with MATLAB or `ode15s`. The full run can take several minutes.
-
-## Scope
-
-The code is intended as a research example and numerical starting point. It does not include lateral pixel physics, TFT backplane or driver electronics, optical outcoupling, thermal aging, or a device-specific fit to measured J–V–L data. Simulation outputs should be checked against measured data before drawing device conclusions.
