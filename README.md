@@ -2,8 +2,6 @@
 
 A one-dimensional Python example for steady-state charge transport and recombination in a multilayer OLED. It solves coupled hole and electron continuity equations with Poisson electrostatics, field-dependent mobility, interfacial barriers, and contact injection. Given the carrier solution, it computes local steady singlet and triplet populations and exports device-physics profiles and figures.
 
-![OLED drift-diffusion simulation results](docs/summary_dashboard.png)
-
 This repository contains one illustrative five-layer stack with parameters embedded in `Device.__init__`. The values are an example for exploring the numerical method; the code does not represent a calibrated panel or a general device-design package.
 
 ## Install
